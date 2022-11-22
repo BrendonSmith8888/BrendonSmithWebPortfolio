@@ -1,0 +1,207 @@
+a{
+    color: white;
+    cursor: pointer;
+    float: left;
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+h3{
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+iframe{
+    height: 75vh;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 80vw;
+}
+
+img{
+    width: 30%;
+}
+
+p{
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+
+
+#about{
+    align-items: center;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin: 1%;
+    text-align: justify;
+}
+
+#dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+#dropdown:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+#dropdown a{
+    float: left;
+    font-size: 2vw;
+    padding: 2%;
+}
+
+#dropdown #dropdownButton{
+    background-color: inherit;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 2vw;
+    margin: 0;
+    outline: none;
+}
+
+#dropdownContent{
+    display: none;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+}
+
+#dropdownContent a{
+    display: block;
+    float: none;
+    text-align: left;
+}
+
+#dropdownContent a:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+#dropdown:hover #dropdownContent{
+    display: block;
+    width: 40%;
+}
+
+#lists{
+    color: white;
+    font-size: 2vw;
+    text-align: left;
+}
+
+#mySkills{
+    align-items: center;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin: 1%;
+    text-align: justify;
+}
+
+#navLinks{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    float: left;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#navLinks a{
+    color: white;
+    cursor: pointer;
+    float: left;
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navLinks a:hover {
+    background-color: rgb(37, 37, 37);
+}
+
+#projects{
+    align-content: center;
+    color: white;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin: 1%;
+    text-align: center;
+}
+
+#skillsBar{
+    background-color: white;
+    width: 100%;
+}
+
+#skillBarOne{
+    background-color: red;
+    color: red;
+    height: 28%;
+    width: 80%;
+}
+
+#skillBarTwo{
+    background-color: red;
+    color: red;
+    height: 28%;
+    width: 70%;
+}
+
+#skillBarThree{
+    background-color: red;
+    color: red;
+    height: 28%;
+    width: 50%;
+}
+
+#weddingWebsite{
+
+}
