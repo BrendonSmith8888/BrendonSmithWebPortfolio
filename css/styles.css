@@ -126,9 +126,13 @@ p{
 }
 
 #lists{
+    align-items: flex-start;
     color: white;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
     font-size: 2vw;
-    text-align: left;
+    text-align: justify;
 }
 
 #mySkills{
@@ -200,8 +204,4 @@ p{
     color: red;
     height: 28%;
     width: 50%;
-}
-
-#weddingWebsite{
-
 }
